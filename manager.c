@@ -78,7 +78,8 @@ int loadData(Product *p){
         	p[i].name[strlen(p[i].name)-1] = '\0';
         	i++;
     	}
-    	count = i;
+
+	count = i;
 
 	printf("=> 로딩 성공!\n");
 	return count;
